@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Desplegable con js</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="js/sidebar.js" defer></script>
+</head>
+<body>
+    <aside class="sidebar">
+        <nav class="sidebar-nav">
+            <header class="profile">
+                <img class="profile-pfp" src="img/pfp.png">
+                <div class="profile-username text">
+                    <span class="name">Santiago</span>
+                    <span class="surname">Yelmini</span>
+                </div>
+                <i class='bx bx-chevron-right toggle-sidebar'></i>
+            </header>
+            <ul class="sidebar-ul">
+                <a class="search-box">
+                    <i class='bx bx-search search-icon'></i>
+                    <input class="search-input text" type="text" placeholder="Buscar...">
+                </a>
+                <a class="sidebar-item">
+                    <i class='bx bx-home-alt icon' ></i>
+                    <li class="text">Panel</li>
+                </a>
+                <a class="sidebar-item">
+                    <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                    <li class="text">Ganancia</li>
+                </a>
+                <a class="sidebar-item">
+                    <i class='bx bx-pie-chart-alt icon' ></i>
+                    <li class="text">Analiticos</li>
+                </a>
+                <a class="sidebar-item">
+                    <i class='bx bx-wallet icon' ></i>
+                    <li class="text">Tarjetas</li>
+                </a>
+            </ul>
+        </nav>
+        <div class="bottom">
+            <a class="sidebar-item">
+                <i class='bx bx-log-out icon'></i>
+                <li class="text">Cerrar Sesion</li>
+            </a>
+        </div>
+    </aside>
+    <main></main>
+</body>
+</html>
